@@ -1,13 +1,8 @@
 import React from 'react'
 import HeroComponent from './Hero'
-import MenuComponent from './Menu'
-
-type Props = {}
-
-export default function HeaderComponent({}: Props) {
+export default function HeaderComponent() {
   return (
-    <div>
-      <MenuComponent />
+    <div className='h-[100vh] relative'>
       <HeroComponent />
     </div>
   )
