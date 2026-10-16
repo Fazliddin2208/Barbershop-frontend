@@ -49,7 +49,12 @@ export default function MenuComponent() {
         </li>
       </ul>
       <div className="flex items-center gap-5">
-        <Button>Band qilish</Button>
+        <Button asChild variant="outline">
+          <Link href="/login">Log in</Link>
+        </Button>
+        <Button asChild>
+          <Link href="/register">Open a shop</Link>
+        </Button>
       </div>
     </div>
   );

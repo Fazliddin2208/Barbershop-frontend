@@ -1,10 +1,7 @@
-import React from 'react'
 import HeroStatCard from './HeroStatCard'
 import { FaStar, FaUser } from 'react-icons/fa'
 
-type Props = {}
-
-export default function HeroStats({}: Props) {
+export default function HeroStats() {
   return (
     <div className='border flex flex-col items-end'>
         <HeroStatCard Icon={FaUser} title='Customers' stat='1,291' description='We already have more than 1,291 customers' />
